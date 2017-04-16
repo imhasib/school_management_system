@@ -54,12 +54,6 @@ public class ToolBar// extends javax.swing.JFrame
         tbb_undo = new javax.swing.JButton();
         tbb_undo.setToolTipText("Undo");
         tbb_undo.setIcon(undo);
-        tbb_redo = new javax.swing.JButton();
-        tbb_redo.setToolTipText("Redo");
-        tbb_redo.setIcon(redo);
-        tbb_save = new javax.swing.JButton();
-        tbb_save.setToolTipText("Save");
-        tbb_save.setIcon(save);
         tbb_addStudent = new javax.swing.JButton();
         tbb_addStudent.setToolTipText("addStudent");
         tbb_addStudent.setIcon(addStudent);
@@ -68,24 +62,18 @@ public class ToolBar// extends javax.swing.JFrame
         tbb_find.setIcon(find);
         jTextField1 = new javax.swing.JTextField();
         tbb_findTF = new javax.swing.JTextField();
-        tbb_notice = new javax.swing.JButton();
-        tbb_notice.setToolTipText("Notice");
-        tbb_notice.setIcon(notice);
         tbb_result = new javax.swing.JButton();
         tbb_result.setToolTipText("result");
         tbb_result.setIcon(result);
-        tbb_prfrmncGraph = new javax.swing.JButton();
-        tbb_prfrmncGraph.setToolTipText("Performance Graph of Student");
-        tbb_prfrmncGraph.setIcon(prfrmncGraph);
-        tbb_calculator = new javax.swing.JButton();
-        tbb_calculator.setToolTipText("Calculator");
-        tbb_calculator.setIcon(calculator);
+//        tbb_prfrmncGraph = new javax.swing.JButton();
+//        tbb_prfrmncGraph.setToolTipText("Performance Graph of Student");
+//        tbb_prfrmncGraph.setIcon(prfrmncGraph);
         tbb_logOut = new javax.swing.JButton();
         tbb_logOut.setToolTipText("Log out");
         tbb_logOut.setIcon(logOut);
-        tbb_config = new javax.swing.JButton();
-        tbb_config.setToolTipText("Configure");
-        tbb_config.setIcon(config);
+//        tbb_config = new javax.swing.JButton();
+//        tbb_config.setToolTipText("Configure");
+//        tbb_config.setIcon(config);
         tbb_help = new javax.swing.JButton();
         tbb_help.setToolTipText("Help");
         tbb_help.setIcon(help);
@@ -104,24 +92,6 @@ public class ToolBar// extends javax.swing.JFrame
         tbb_undo.setPreferredSize(new java.awt.Dimension(35, 35));
         tbb_undo.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(tbb_undo);
-        jToolBar1.addSeparator();
-
-        tbb_redo.setFocusable(false);
-        tbb_redo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        tbb_redo.setMaximumSize(new java.awt.Dimension(35, 35));
-        tbb_redo.setName("tbb_redo"); // NOI18N
-        tbb_redo.setPreferredSize(new java.awt.Dimension(35, 35));
-        tbb_redo.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(tbb_redo);
-        jToolBar1.addSeparator();
-
-        tbb_save.setFocusable(false);
-        tbb_save.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        tbb_save.setMaximumSize(new java.awt.Dimension(35, 35));
-        tbb_save.setName("tbb_save"); // NOI18N
-        tbb_save.setPreferredSize(new java.awt.Dimension(35, 35));
-        tbb_save.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(tbb_save);
         jToolBar1.addSeparator();
 
         tbb_addStudent.setFocusable(false);
@@ -184,15 +154,6 @@ public class ToolBar// extends javax.swing.JFrame
             }
         });
 
-        tbb_notice.setFocusable(false);
-        tbb_notice.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        tbb_notice.setMaximumSize(new java.awt.Dimension(35, 35));
-        tbb_notice.setName("tbb_notice"); // NOI18N
-        tbb_notice.setPreferredSize(new java.awt.Dimension(35, 35));
-        tbb_notice.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(tbb_notice);
-        jToolBar1.addSeparator();
-
         tbb_result.setFocusable(false);
         tbb_result.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         tbb_result.setMaximumSize(new java.awt.Dimension(35, 35));
@@ -202,24 +163,14 @@ public class ToolBar// extends javax.swing.JFrame
         jToolBar1.add(tbb_result);
         jToolBar1.addSeparator();
 
-        tbb_prfrmncGraph.setFocusable(false);
-        tbb_prfrmncGraph.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        tbb_prfrmncGraph.setMaximumSize(new java.awt.Dimension(35, 35));
-        tbb_prfrmncGraph.setName("tbb_prfrmncGraph"); // NOI18N
-        tbb_prfrmncGraph.setPreferredSize(new java.awt.Dimension(35, 35));
-        tbb_prfrmncGraph.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(tbb_prfrmncGraph);
-        jToolBar1.addSeparator();
-        jToolBar1.addSeparator();
-
-        tbb_calculator.setFocusable(false);
-        tbb_calculator.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        tbb_calculator.setMaximumSize(new java.awt.Dimension(35, 35));
-        tbb_calculator.setName("tbb_calculator"); // NOI18N
-        tbb_calculator.setPreferredSize(new java.awt.Dimension(35, 35));
-        tbb_calculator.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(tbb_calculator);
-        jToolBar1.addSeparator();
+//        tbb_prfrmncGraph.setFocusable(false);
+//        tbb_prfrmncGraph.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+//        tbb_prfrmncGraph.setMaximumSize(new java.awt.Dimension(35, 35));
+//        tbb_prfrmncGraph.setName("tbb_prfrmncGraph"); // NOI18N
+//        tbb_prfrmncGraph.setPreferredSize(new java.awt.Dimension(35, 35));
+//        tbb_prfrmncGraph.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+//        jToolBar1.add(tbb_prfrmncGraph);
+//        jToolBar1.addSeparator();
 
         tbb_logOut.setFocusable(false);
         tbb_logOut.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -230,14 +181,14 @@ public class ToolBar// extends javax.swing.JFrame
         jToolBar1.add(tbb_logOut);
         jToolBar1.addSeparator();
 
-        tbb_config.setFocusable(false);
-        tbb_config.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        tbb_config.setMaximumSize(new java.awt.Dimension(35, 35));
-        tbb_config.setName("tbb_config"); // NOI18N
-        tbb_config.setPreferredSize(new java.awt.Dimension(35, 35));
-        tbb_config.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(tbb_config);
-        jToolBar1.addSeparator();
+//        tbb_config.setFocusable(false);
+//        tbb_config.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+//        tbb_config.setMaximumSize(new java.awt.Dimension(35, 35));
+//        tbb_config.setName("tbb_config"); // NOI18N
+//        tbb_config.setPreferredSize(new java.awt.Dimension(35, 35));
+//        tbb_config.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+//        jToolBar1.add(tbb_config);
+//        jToolBar1.addSeparator();
 
         tbb_print.setFocusable(false);
         tbb_print.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -265,17 +216,17 @@ public class ToolBar// extends javax.swing.JFrame
     public javax.swing.JTextField jTextField1;
     public javax.swing.JToolBar jToolBar1;
     public javax.swing.JButton tbb_addStudent;
-    public javax.swing.JButton tbb_calculator;
-    public javax.swing.JButton tbb_config;
+//    public javax.swing.JButton tbb_calculator;
+//    public javax.swing.JButton tbb_config;
     public javax.swing.JButton tbb_find;
     public javax.swing.JTextField tbb_findTF;
     public javax.swing.JButton tbb_help;
     public javax.swing.JButton tbb_logOut;
-    public javax.swing.JButton tbb_notice;
-    public javax.swing.JButton tbb_prfrmncGraph;
-    public javax.swing.JButton tbb_redo;
+//    public javax.swing.JButton tbb_notice;
+//    public javax.swing.JButton tbb_prfrmncGraph;
+//    public javax.swing.JButton tbb_redo;
     public javax.swing.JButton tbb_result;
-    public javax.swing.JButton tbb_save;
+//    public javax.swing.JButton tbb_save;
     public javax.swing.JButton tbb_undo;
     public javax.swing.JButton tbb_print;
     // End of variables declaration

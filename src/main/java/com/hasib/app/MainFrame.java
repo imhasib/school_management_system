@@ -48,7 +48,7 @@ public class MainFrame extends JFrame {
         initComponents();
         getSubByClass();
         getSecbyClass();
-        change_look(11);
+//        change_look(11);
         frameSize = getSize();
     }
 
@@ -743,13 +743,13 @@ public class MainFrame extends JFrame {
                     if (subcus_isnew == true) {
                         obSelectAndInsertData.insertTuple("insert into sub_set_" + selected_class + " values('" + new_sub + "','" + new_subCode + "')");
 
-                        obSelectAndInsertData.insertTuple("alter table " + selected_class + " add(" + new_subCode + "att number)");
-                        obSelectAndInsertData.insertTuple("alter table " + selected_class + " add(" + new_subCode + "tt number)");
-                        obSelectAndInsertData.insertTuple("alter table " + selected_class + " add(" + new_subCode + "sub number)");
+                        obSelectAndInsertData.insertTuple("alter table " + selected_class + " add(" + new_subCode + "att INT)");
+                        obSelectAndInsertData.insertTuple("alter table " + selected_class + " add(" + new_subCode + "tt INT)");
+                        obSelectAndInsertData.insertTuple("alter table " + selected_class + " add(" + new_subCode + "sub INT)");
                         if (selected_class.equals("class6") || selected_class.equals("class7") || selected_class.equals("class8")) {
-                            obSelectAndInsertData.insertTuple("alter table " + selected_class + " add(" + new_subCode + "obj number)");
+                            obSelectAndInsertData.insertTuple("alter table " + selected_class + " add(" + new_subCode + "obj INT)");
                         }
-                        obSelectAndInsertData.insertTuple("alter table " + selected_class + " add(" + new_subCode + "final number)");
+                        obSelectAndInsertData.insertTuple("alter table " + selected_class + " add(" + new_subCode + "final INT)");
 
                         obSubjectCustomize.list_model.addElement(new_sub);
                         obSubjectCustomize.tf_new.setText(null);
