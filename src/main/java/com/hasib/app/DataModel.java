@@ -2,13 +2,13 @@ package com.hasib.app;
 
 import java.sql.*;
 
-class Initializetion {
+public class DataModel {
 
     Connection con;
     Statement stmnt1;
     ResultSet result;
 
-    Initializetion() throws SQLException {
+    public DataModel() throws SQLException {
         connectdba();
         initial();
     }
@@ -160,6 +160,6 @@ class Initializetion {
     }
 
     public static void main(String[] args) throws SQLException {
-        new Initializetion();
+        new DataModel();
     }
 }

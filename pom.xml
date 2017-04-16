@@ -37,7 +37,7 @@
                             <goal>java</goal>
                         </goals>
                         <configuration>
-                            <mainClass>com.hasib.Main</mainClass>
+                            <mainClass>com.hasib.app.DataModel</mainClass>
                             <arguments>
                                 <argument>arg0</argument>
                             </arguments>
