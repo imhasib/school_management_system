@@ -21,3 +21,4 @@
         mvn exec:java -Dexec.mainClass="com.hasib.app.Main"
         
 * No authentication required just click the sign-in button.
+* Those commands are also executable from the project directory.
